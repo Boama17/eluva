@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Poppins", system-ui, sans-serif;
+    
+  }
+}
+
+
+
+.front{
+  background-image: url('./img/grain.jpeg');
+  height: 100vh;
+  border-bottom-left-radius: 6.5rem;
+  border-bottom-right-radius: 6.5rem;
+}
+
+.league-spartan-regular {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.letter{
+  color: rgb(42, 164, 75);
+}
